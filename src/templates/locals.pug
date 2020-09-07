@@ -1,0 +1,6 @@
+-
+  if(htmlWebpackPlugin && htmlWebpackPlugin.options && htmlWebpackPlugin.options.locals) {
+    for(let key in htmlWebpackPlugin.options.locals){
+      eval(`${key}=htmlWebpackPlugin.options.locals.${key}`)
+    }
+  }

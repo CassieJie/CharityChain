@@ -1,0 +1,17 @@
+include locals.pug
+doctype html
+html(lang='en')
+  include head.pug
+  body
+    #main
+      #login-form.mt-5
+        .form-group
+          label User name
+          input#username.form-control(type='text' placeholder='Enter your user name')
+        .form-group.mb-4
+          label Password
+          input#password.form-control(type='password' placeholder='Enter your passsword')
+        .form-group 
+          button#login-btn.btn.btn-warning.btn-lg
+            span.spinner-border.spinner-border-sm.mr-2.hide
+            span Sign in
