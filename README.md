@@ -43,7 +43,7 @@ This project is a web demo for *Charitychain* based on Bootstrap,Node.js,Express
 
 ## 二、Project structure
 
-![tree](https://github.com/CassieJie/learngit/blob/master/Project_voc/tree.jpeg)
+![tree](https://github.com/CassieJie/CharityChain/blob/master/tree.jpg)
 
 - **Entry file**: app.js
 
